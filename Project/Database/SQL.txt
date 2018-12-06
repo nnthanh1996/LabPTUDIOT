@@ -1,0 +1,9 @@
+CREATE TABLE datacollecting(
+	ID int AUTO_INCREMENT,
+    Temperature varchar(255),
+    Humidity varchar(255),
+    Light varchar(255),
+    Gas varchar(255),
+    Time TIMESTAMP,
+    PRIMARY KEY (ID)
+);
