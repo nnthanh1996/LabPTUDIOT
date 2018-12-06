@@ -21,7 +21,7 @@ Nghiệm thu và hướng phát triển
 
 Server đã hiện thực được thành công các chức năng:
 Thu thập thông tin
-Lưu ảnh thu thập trên server
+Lưu ảnh thu thập trên server.
 Nhưng hiện tại, khi deploy server trên webhoisting, nhóm đang gặp vấn đề về môi trường trong việc hiển thì ảnh thu thập được qua server và API đề lấy ảnh thu thập lưu trên server. Nhưng trên server local thì những chức năng này chạy bình thường. Trong tương lai nhóm sẽ hoàn thiện thêm các tính năng mở rộng.
 
 ## Hướng dẫn cài đặt
