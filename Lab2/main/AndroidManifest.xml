@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab2_all">
+    <uses-permission android:name="com.google.android.things.permission.USE_PERIPHERAL_IO"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <application android:label="@string/app_name">
+        <uses-library android:name="com.google.android.things" />
+
+        <activity android:name=".LoopbackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Phan nay tu them vao, chua biet dung sai-->
+        <activity android:name="com.example.lab2_all.l1c1" android:noHistory="true">
+        </activity>
+        <activity android:name="com.example.lab2_all.l1c2" android:noHistory="true">
+        </activity>
+        <!-- END-->
+    </application>
+
+</manifest>
